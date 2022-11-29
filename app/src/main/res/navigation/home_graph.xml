@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_graph"
+    app:startDestination="@id/tasksView">
+
+    <fragment
+        android:id="@+id/tasksView"
+        android:name="barmagah.tms.admin.presentation.home.TasksView"
+        android:label="TasksView" />
+</navigation>
